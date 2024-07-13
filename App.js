@@ -53,7 +53,7 @@ function App() {
         <Route path="/About" element={<About></About>} />
         <Route path="/contact" element={<ContactUs></ContactUs>} />
         <Route path="login" element={<OpenRoute><Login></Login></OpenRoute>} />
-        <Route path="signup" element={<OpenRoute><Signup></Signup></OpenRoute>} />
+        <Route path="/signup" element={<OpenRoute><Signup></Signup></OpenRoute>} />
         <Route path="forgot-password" element={<OpenRoute><ForgotPassword></ForgotPassword></OpenRoute>} />
         <Route path="reset-password/:id" element={<OpenRoute><UpdatePassword></UpdatePassword></OpenRoute>} />
         <Route path="verify-email" element={<OpenRoute><VerifyEmail></VerifyEmail></OpenRoute>} />

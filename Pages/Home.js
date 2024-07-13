@@ -44,10 +44,10 @@ const Home = () => {
         <div className=' mx-auto flex flex-col justify-between items-center w-11/12 text-white '>
 
             {/* Become a Intsructor Button */}
-            <Link to={"/about"}>
+            <Link to="/signup">
                 <div className='w-fit mt-[70px] mb-[40px] border-2 border-richblack-700 rounded-full bg-richblack-800 text-richblack-100 hover:scale-95 transition-all duration-200 drop-shadow-[0_1.5px_rgba(255,255,255,0.25)] hover:drop-shadow-none' >
                     <div className=' px-[30px] py-[12px] rounded-full flex flex-row items-center gap-2 transition-all duration-200 group-hover:bg-richblack-900'>
-                        <button >Become an Instructor</button>
+                        <p>Become an Instructor</p>
                         <FaArrowRight />
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const Home = () => {
                 <Link to='/About'>
                     <CTAButton text={"Learn More"} active={true}></CTAButton>
                 </Link>
-                <Link to="/about">
+                <Link to="/signup">
                     <CTAButton text={"Book a demo"} active={false}></CTAButton>
                 </Link>
             </div>
@@ -151,7 +151,7 @@ const Home = () => {
                 be a competitive specialist requires more than professional
                 skills.
               </div>
-              <CTAButton active={true} linkto={"/about"} text={"Learn More"}></CTAButton>
+              <CTAButton active={true} linkto={"/signup"} text={"Learn More"}></CTAButton>
             </div>
           </div>
           {/* Timeline Section - Section 2 */}
