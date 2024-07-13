@@ -10,7 +10,7 @@ const CodeBlocks = ({ Heading, SubHeading, codeblock, position, codecolor, btnTe
                 <div className="text-center text-4xl font-semibold ">{Heading}</div>
                 <div className='mt-[40px] w-[11/12] text-lg text-richblack-300 text-center'>{SubHeading}</div>
                 <div className='mt-[40px] flex flex-row justify-evenly'>
-                    <Link to='/signup'>
+                    <Link to='/about'>
                         <CTAButton text={btnText1} active={true} className=''></CTAButton>
                     </Link>
                     <Link to='/About'>
